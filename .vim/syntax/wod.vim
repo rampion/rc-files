@@ -1,0 +1,1 @@
+/Users/noah/Projects/nwod-changeling/.vim/syntax/wod.vim
