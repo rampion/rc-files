@@ -5,6 +5,7 @@
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
 	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 	commit-quick = !git commit -a -m \"`head -n 1`\"
+	cq = !git commit-quick
 [color]
 	branch = auto
 	diff = auto
