@@ -4,7 +4,7 @@ export SHELL=/bin/zsh
 bindkey -v
 
 MANPATH=/opt/local/man/:$MANPATH
-PATH=/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/texbin:${PATH:s,/usr/local/bin:,,}:. # add /usr/local/bin and current directory to path
+PATH=/usr/local/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/texbin:$HOME/.cabal/bin:${PATH:s,/usr/local/bin:,,}:. # add /usr/local/bin and current directory to path
 setopt autolist # list ambiguous tab-completions
 compctl -c man # use commands as tab-completions for arguments to man
 setopt correctall # correct spelling on commands (setopt correct) and arguments

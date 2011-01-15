@@ -110,3 +110,6 @@ au BufWritePre * let &bex = ';' . substitute(expand('%:p:h'), '/', ':', 'g') . '
 
 " store swap files in central location
 set directory=~/.swap
+
+" defer haskell interface files when doing tab completion
+set suffixes+=,.hi
